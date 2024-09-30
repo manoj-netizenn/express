@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>passing data from server to client</h1>
+    <h1>Welcome, <%=username%></h1>
+    <p> email:<%=email%></p>
+    <p>age:<%=age%></p>
+    <%if(isPremiumUser){%>
+<p>you are a premium user</p>
+    <%}%>
+    <p><%=(isLogin)?'you are logged in':'not logged in'%> </p>
+</body>
+</html>
